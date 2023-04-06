@@ -1,0 +1,30 @@
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-image {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    flex: 25%;
+    max-width: 25%;
+}
+
+.gallery-image img {
+    width: 100%;
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+@media screen and (max-width: 800px) {
+	.gallery-image {
+		flex: 50%;
+		max-width: 50%;
+	}
+
+	.gallery-image img {
+		width: 100%;
+	}
+}
