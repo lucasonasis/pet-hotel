@@ -10,8 +10,8 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
-    <div className="pet-navbar">
-      <div className="pet-navbar-links">
+    <div className="pet-navbar" id="pet-navbar">
+      <div className="pet-navbar-links" id="pet-navbar-links">
         <img src={require('./../../assets/logo.png')} className="pet-navbar-links-logo"/>
         <div className="pet-navbar-links-container">
         <NavLink to='/' style={({ isActive }) => { return { color : isActive ? 
