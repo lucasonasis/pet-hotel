@@ -6,29 +6,6 @@ function Cats() {
   return (
     <div className="cats-page">
     <div className='cats'>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
-      <p>CATS</p>
     </div>
     <Navbar/>
     </div>

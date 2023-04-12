@@ -5,7 +5,7 @@ import { HiOutlinePlus } from 'react-icons/hi';
 import Navbar from '../../components/navbar/Navbar';
 import Blog from '../../components/blog/Blog';
 import Gallery from '../../components/gallery/Gallery';
-
+import Footer from '../../components/footer/Footer';
 
 function About() {
   return (
@@ -66,6 +66,7 @@ function About() {
         <Navbar/>
         <Blog/>
         <Gallery/>
+        <Footer/>
     </div>
 
     )
