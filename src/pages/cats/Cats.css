@@ -1,6 +1,145 @@
-.cats {
-    margin-top: 160px;
+.cats-page {
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    font-family: var(--font-family);
+    margin-top: 60px;
+}
+
+
+.pages-cats {
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    font-family: var(--font-family);
+    margin-top: 60px;
+}
+
+.pages-cats-first, .pages-cats-second, .pages-cats-third {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.pages-cats-third {
+    background-color: #fff;
+    color: black;
+}
+
+.pages-cats-first-content, .pages-cats-second-content, .pages-cats-third-content {
+    padding: 80px;
+    justify-content: left;
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.pages-cats-first-content h1, .pages-cats-services h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+
+.cats-images {
+    width: 50%;
+}
+
+
+.cats-images-container {
+    overflow: hidden;
+}
+
+.third {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1250px) {
+    .pages-cats-first, .pages-cats-second, .pages-cats-third {
+        flex-direction: column;
+    }
+
+    .pages-cats-first-content h1 {
+        font-size: 40px;
+        margin-top: 80px;
+    }
+    .pages-cats-services h1 {
+        font-size: 40px;
+    }
+
+    .pages-cats-first-content, .pages-cats-second-content, .pages-cats-third-content {
+        padding: 20px 10px 20px 10px;
+        text-align: center;
+        font-size: 20px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .pages-cats-second {
+        flex-direction: column-reverse;
+    }
+
+    .cats-images {
+        width: 100%;
+    }
+}
+
+.pages-cats-services {
+    background-color: var(--color-blog-one);
+    color: var(--color-bg);
+}
+
+.pages-cats-services p {
+    text-align: center;
+    padding: 0px 30px 30px 30px;
+}
+
+.pages-cats-trainers-container {
     display: flex;
     flex-direction: column;
-    color: aqua;
+    flex-wrap: nowrap;
+    padding: 80px;
+}
+
+.pages-cats-trainers-content {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-self: center;
+    padding: 3%;
+
+}
+
+.pages-cats-trainers-intro h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+
+.pages-cats-trainers-intro p {
+    text-align: center;
+    justify-content: center;
+}
+
+.pages-cats-trainer-services {
+    list-style-type: none;
+}
+
+.pages-cats-trainers-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.pages-cats-trainer-content-one img, .pages-cats-trainer-content-two img, .pages-cats-trainer-content-three img {
+    width: 100%;
+}
+
+.pages-cats-trainer-content-one, .pages-cats-trainer-content-two, .pages-cats-trainer-content-three {
+    margin: 2%;
+    border: 2px solid white;
+    padding-bottom: 1%;
 }
