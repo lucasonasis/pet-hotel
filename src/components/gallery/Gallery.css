@@ -69,3 +69,7 @@
       max-height: 80%;
     }
   }
+
+  body.modal-open {
+    overflow: hidden;
+  }

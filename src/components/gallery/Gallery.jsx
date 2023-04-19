@@ -65,12 +65,14 @@ function Gallery({ onHideNavbar }) {
 
   const handleImgClick = (src) => {
     document.getElementById('pet-navbar').style.display='none';
+    document.body.classList.add('modal-open');
     setSelectedImg(src);
     setShowModal(true);
   }
 
   const closeModal = () => {
     document.getElementById('pet-navbar').style.display='flex';
+    document.body.classList.remove('modal-open');
     setSelectedImg('');
     setShowModal(false);
   }
