@@ -19,7 +19,7 @@ function Cats() {
                 <p>Inspired by the idea of ​​opening a boarding house for animals to serve the city of Cluj-Napoca, we made changes to the house where we lived in order to be able to receive dogs as a boarding house. A few years later, encouraged by the demand for accommodation for cats and modifying other rooms, we managed to put into operation the first boarding house for cats in Cluj-Napoca.</p>
             </div>
             <img className="cats-images" src={require("./../../assets/animal_3.webp")} alt="first"/>
-        </div>
+      </div>
 
         <div className="pages-cats-second">
             <img className="cats-images" src={require("./../../assets/animal_2.webp")} alt="second"/>
@@ -56,50 +56,48 @@ function Cats() {
           </div>
 
           <div className="pages-cats-trainers-content">
-          <div class="pages-cats-trainer-content-one">
+          <div className="pages-cats-trainer-content-one">
             <img src={require("./../../assets/vet_2.jpeg")}/>
             <h2>Lucie Cross</h2>
-            <p class="pages-cats-trainer-qualifications">Certified Feline Training and Behavior Specialist</p>
+            <p className="pages-cats-trainer-qualifications">Certified Feline Training and Behavior Specialist</p>
             <p>Bachelor's degree in Animal Behavior</p>
-            <ul class="pages-cats-trainer-services">
+            <ul className="pages-cats-trainer-services">
               <li>Private training sessions</li>
               <li>Behavior modification</li>
               <li>Cat grooming</li>
             </ul>
            </div>
 
-          <div class="pages-cats-trainer-content-two">
+          <div className="pages-cats-trainer-content-two">
             <img src={require("./../../assets/vet_4.jpeg")}/>
             <h2>Darius Grant</h2>
-            <p class="pages-cats-trainer-qualifications">Certified Pet Trainer</p>
+            <p className="pages-cats-trainer-qualifications">Certified Pet Trainer</p>
             <p>Associate's degree in Veterinary Technology</p>
-            <ul class="pages-cats-trainer-services">
+            <ul className="pages-cats-trainer-services">
             <li>Private training sessions</li>
               <li>Behavior modification</li>
               <li>Dog grooming</li>
             </ul>
            </div>
 
-           <div class="pages-cats-trainer-content-three">
+           <div className="pages-cats-trainer-content-three">
             <img src={require("./../../assets/vet_3.jpeg")}/>
             <h2>Thea Hamilton</h2>
-            <p class="pages-cats-trainer-qualifications">Certified Animal Behaviorist</p>
+            <p className="pages-cats-trainer-qualifications">Certified Animal Behaviorist</p>
             <p>Master's degree in Animal Behavior and Grooming</p>
-            <ul class="pages-cats-trainer-services">
+            <ul className="pages-cats-trainer-services">
             <li>Private training sessions</li>
               <li>Behavior modification</li>
               <li>Dog grooming</li>
             </ul>
            </div>
           </div>
-
-
-
-
-
         </div>
-
-
+        <div className="pages-cats-prices-container">
+          <div className="pages-cats-prices">
+            <h1>PRICES TO BE ADDED</h1>
+          </div>
+        </div>
 
 
 

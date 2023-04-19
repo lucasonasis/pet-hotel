@@ -13,7 +13,7 @@ const Navbar = () => {
     <div className="pet-navbar" id="pet-navbar">
       <div className="pet-navbar-links" id="pet-navbar-links">
         <img src={require('./../../assets/logo.png')} className="pet-navbar-links-logo"/>
-        <div className="pet-navbar-links-container">
+        <div className="pet-navbar-links-container" id="pet-navbar-links-container">
         <NavLink to='/' style={({ isActive }) => { return { color : isActive ? 
         "#02de0a" : "" } }}><p>Home</p></NavLink>
         <NavLink to='/about' style={({ isActive }) => { return { color : isActive ? "#02de0a" : "" } }}><p>About</p></NavLink>
@@ -24,7 +24,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div className="pet-navbar-mobile">
+      <div className="pet-navbar-mobile" id="pet-navbar-mobile">
         {toggleMenu
           ? <RiCloseLine color="#0a0a0a" size={27} onClick={() => setToggleMenu(false)} />
           : <RiMenu3Line color="#0a0a0a" size={27} onClick={() => setToggleMenu(true)} />}
@@ -42,7 +42,6 @@ const Navbar = () => {
         </div>
         )}
       </div>
-
     </div>
   );
 };

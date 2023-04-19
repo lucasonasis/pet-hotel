@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './Gallery.css';
+import Navbar from '../navbar/Navbar';
 import animal_15 from './../../assets/animal_15.jpg';
 import animal_18 from './../../assets/animal_18.jpg';
 import animal_17 from './../../assets/animal_17.jpg';
@@ -22,7 +23,7 @@ import animal_8 from './../../assets/animal_8.webp';
 import animal_5 from './../../assets/animal_5.webp';
 
 
-function Gallery() {
+function Gallery({ onHideNavbar }) {
 
   const [images, setImages] = useState([]);
 
@@ -63,12 +64,13 @@ function Gallery() {
   const [selectedImg, setSelectedImg] = useState('');
 
   const handleImgClick = (src) => {
+    document.getElementById('pet-navbar').style.display='none';
     setSelectedImg(src);
     setShowModal(true);
-    document.getElementById('pet-navbar-links').style.display = 'none';
   }
 
   const closeModal = () => {
+    document.getElementById('pet-navbar').style.display='flex';
     setSelectedImg('');
     setShowModal(false);
   }
@@ -81,7 +83,7 @@ function Gallery() {
           <img src={selectedImg} alt='Full size' />
         </div>
       )}
-      
+
       <div className="gallery-images">
         {images.map((src, index) => (
           <div key={index} className={`gallery-image image-${index}`}>
