@@ -26,6 +26,7 @@ import animal_5 from './../../assets/animal_5.webp';
 function Gallery({ onHideNavbar }) {
 
   const [images, setImages] = useState([]);
+  const [selectedImgIndex, setSelectedImgIndex] = useState(0);
 
   useEffect(() => {
     // Array of image sources
@@ -62,28 +63,60 @@ function Gallery({ onHideNavbar }) {
 
   const [showModal, setShowModal] = useState(false);
   const [selectedImg, setSelectedImg] = useState('');
+  const [currentIndex, setCurrentIndex] = useState(0);
 
-  const handleImgClick = (src) => {
+
+  const handleImgClick = (src, index) => {
     document.getElementById('pet-navbar').style.display='none';
     document.body.classList.add('modal-open');
     setSelectedImg(src);
+    setSelectedImgIndex(index);
     setShowModal(true);
+  }
+
+  const handlePrevClick = (e) => {
+    e.stopPropagation();
+    previousImage();
+  }
+
+  const handleNextClick = (e) => {
+    e.stopPropagation();
+    nextImage();
   }
 
   const closeModal = () => {
     document.getElementById('pet-navbar').style.display='flex';
     document.body.classList.remove('modal-open');
     setSelectedImg('');
+    setSelectedImgIndex(0);
     setShowModal(false);
   }
+
+  const nextImage = () => {
+    const nextIndex = selectedImgIndex + 1;
+    if (nextIndex < images.length) {
+      setSelectedImg(images[nextIndex]);
+      setSelectedImgIndex(nextIndex);
+    }
+  };
+
+  const previousImage = () => {
+    const previousIndex = selectedImgIndex - 1;
+    if (previousIndex >= 0) {
+      setSelectedImg(images[previousIndex]);
+      setSelectedImgIndex(previousIndex);
+    }
+  };
 
   return (
     <div className='gallery-container'>
       {showModal && (
         <div className='modal' onClick={closeModal}>
           <button className='modal-exit' onClick={closeModal}>X</button>
-          <img src={selectedImg} alt='Full size' />
-        </div>
+          <button className='modal-prev' onClick={handlePrevClick}>{'<'}</button>
+          <img src={selectedImg} alt='Full size' onClick={(e) => e.stopPropagation()}/>
+          <button className='modal-next' onClick={handleNextClick}>{'>'}</button>
+      </div>
       )}
 
       <div className="gallery-images">
@@ -92,7 +125,7 @@ function Gallery({ onHideNavbar }) {
             <img             
               src={src}
               alt={`Image ${index}`}
-              onClick={() => handleImgClick(src)}/>
+              onClick={() => handleImgClick(src, index)}/>
           </div>
         ))}
       </div>
