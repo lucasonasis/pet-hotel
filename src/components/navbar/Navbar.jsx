@@ -19,7 +19,7 @@ const Navbar = () => {
         <NavLink to='/about' style={({ isActive }) => { return { color : isActive ? "#02de0a" : "" } }}><p>About</p></NavLink>
         <NavLink to='/dogs' style={({ isActive }) => { return { color : isActive ? "#02de0a" : "" } }}><p>Dogs</p></NavLink>
         <NavLink to='/cats' style={({ isActive }) => { return { color : isActive ? "#02de0a" : "" } }}><p>Cats</p></NavLink>
-        <NavLink to='/other' style={({ isActive }) => { return { color : isActive ? "#02de0a" : "" } }}><p>Other</p></NavLink>
+        <NavLink to='/booking' style={({ isActive }) => { return { color : isActive ? "#02de0a" : "" } }}><p>Booking</p></NavLink>
         <NavLink to='/contact' style={({ isActive }) => { return { color : isActive ? "#02de0a" : "" } }}><p>Contact</p></NavLink>
         </div>
       </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
         <NavLink to='/about' style={({ isActive }) => { return { color : isActive ? "#02de0a" : "" } }}><p>About</p></NavLink>
         <NavLink to='/dogs' style={({ isActive }) => { return { color : isActive ? "#02de0a" : "" } }}><p>Dogs</p></NavLink>
         <NavLink to='/cats' style={({ isActive }) => { return { color : isActive ? "#02de0a" : "" } }}><p>Cats</p></NavLink>
-        <NavLink to='/other' style={({ isActive }) => { return { color : isActive ? "#02de0a" : "" } }}><p>Other</p></NavLink>
+        <NavLink to='/booking' style={({ isActive }) => { return { color : isActive ? "#02de0a" : "" } }}><p>Booking</p></NavLink>
         <NavLink to='/contact' style={({ isActive }) => { return { color : isActive ? "#02de0a" : "" } }}><p>Contact</p></NavLink>
           </div>
         </div>

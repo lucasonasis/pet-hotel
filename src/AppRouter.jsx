@@ -3,7 +3,7 @@ import { Routes, Route, NavLink } from 'react-router-dom';
 import { useLocation } from 'react-router-dom';
 
 import Home from './pages/home/Home';
-import Other from './pages/other/Other';
+import Booking from './pages/booking/Booking';
 import About from './pages/about/About';
 import Dogs from './pages/dogs/Dogs';
 import Cats from './pages/cats/Cats';
@@ -16,10 +16,10 @@ function AppRouter() {
             <Route exact path='/about' element={ <About/> } />
             <Route exact path='/dogs' element={ <Dogs/> } />
             <Route exact path='/cats' element={ <Cats/> } />
-            <Route exact path='/other' element={ <Other/> } />
+            <Route exact path='/booking' element={ <Booking/> } />
             <Route exact path='/contact' element={ <Contact/> } />
         </Routes>
   )
 }
 
-export default AppRouter
+export default AppRouter;
