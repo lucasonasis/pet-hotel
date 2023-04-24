@@ -11,7 +11,7 @@ import animal_3 from './../../assets/animal_3.webp';
 import animal_11 from './../../assets/animal_11.jpg';
 import animal_4 from './../../assets/animal_4.webp';
 import animal_19 from './../../assets/animal_19.webp';
-import animal_14 from './../../assets/animal_14.jpg';
+import animal_14 from './../../assets/animal_14.webp';
 import animal_7 from './../../assets/animal_7.webp';
 import animal_9 from './../../assets/animal_9.webp';
 import animal_13 from './../../assets/animal_13.webp';

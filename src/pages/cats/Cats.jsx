@@ -93,11 +93,7 @@ function Cats() {
            </div>
           </div>
         </div>
-        <div className="pages-cats-prices-container">
-          <div className="pages-cats-prices">
-            <h1>PRICES TO BE ADDED</h1>
-          </div>
-        </div>
+
 
 
 

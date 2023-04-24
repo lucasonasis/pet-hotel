@@ -1,0 +1,139 @@
+.pages-dogs {
+    color: var(--color-text);
+    background-color: var(--color-bg);
+    font-family: var(--font-family);
+    margin-top: 60px;
+}
+
+.pages-dogs-first, .pages-dogs-second, .pages-dogs-third {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.pages-dogs-third {
+    background-color: #fff;
+    color: black;
+}
+
+.pages-dogs-first-content, .pages-dogs-second-content, .pages-dogs-third-content {
+    padding: 80px;
+    justify-content: left;
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.pages-dogs-first-content h1, .pages-dogs-services h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+
+.dogs-images {
+    width: 50%;
+}
+
+
+.dogs-images-container {
+    overflow: hidden;
+}
+
+.third {
+    background-color: #fff;
+}
+
+@media screen and (max-width: 1250px) {
+    .pages-dogs-first, .pages-dogs-second, .pages-dogs-third {
+        flex-direction: column;
+    }
+
+    .pages-dogs-first-content h1 {
+        font-size: 40px;
+        margin-top: 80px;
+    }
+    .pages-dogs-services h1 {
+        font-size: 40px;
+    }
+
+    .pages-dogs-first-content, .pages-dogs-second-content, .pages-dogs-third-content {
+        padding: 20px 10px 20px 10px;
+        text-align: center;
+        font-size: 20px;
+        width: 90%;
+        margin: auto;
+    }
+
+    .pages-dogs-second {
+        flex-direction: column-reverse;
+    }
+
+    .dogs-images {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 1050px) {
+    .pages-dogs-trainers-content {
+        flex-direction: column !important;
+    }
+}
+
+.pages-dogs-services {
+    background-color: var(--color-blog-one);
+    color: var(--color-bg);
+}
+
+.pages-dogs-services p {
+    text-align: center;
+    padding: 0px 30px 30px 30px;
+}
+
+.pages-dogs-trainers-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding: 80px;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+}
+
+.pages-dogs-trainers-content {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-self: center;
+    padding: 3%;
+}
+
+.pages-dogs-trainers-intro h1 {
+    padding: 30px;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: var(--font-family);
+}
+
+.pages-dogs-trainers-intro p {
+    text-align: center;
+    justify-content: center;
+}
+
+.pages-dogs-trainer-services {
+    list-style-type: none;
+}
+
+.pages-dogs-trainer-content-one img, .pages-dogs-trainer-content-two img, .pages-dogs-trainer-content-three img {
+    width: 100%;
+}
+
+.pages-dogs-trainer-content-one, .pages-dogs-trainer-content-two, .pages-dogs-trainer-content-three {
+    margin: 2%;
+    border: 2px solid white;
+    padding-bottom: 1%;
+}
