@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
 import { WiAlien } from 'react-icons/wi';
 import './Navbar.css';
@@ -8,7 +8,9 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="pet-navbar" id="pet-navbar">
       <div className="pet-navbar-links" id="pet-navbar-links">
@@ -42,6 +44,11 @@ const Navbar = () => {
         </div>
         )}
       </div>
+      {/* <script>
+        window.onload = function() {
+          window.scrollTo(0, 0)
+        };
+      </script> */}
     </div>
   );
 };
