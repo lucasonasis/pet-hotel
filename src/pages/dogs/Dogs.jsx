@@ -10,19 +10,19 @@ function Dogs() {
   return (
     <div className="pages-dogs">
     <div className="pages-dogs-first">
+    <img className="dogs-images" src={require("./../../assets/dog_3.webp")} alt="first"/>
+
             <div className="pages-dogs-first-content">
                 <h1>DOGS SERVICES</h1>
-                <p>The Pet Hotel story begins more than 20 years ago, when we were purebred dog breeders. The need for pet boarding services was almost non-existent. At that time, we do not know of any other boarding house or hotel for pets in Romania.</p>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil aut praesentium optio voluptatibus, minima consectetur sequi adipisci et obcaecati nesciunt ab voluptatum, beatae, minus veritatis quas ullam facere alias illum. .Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus esse molestias eligendi eos vero quod inventore eveniet obcaecati veritatis nesciunt ex, aspernatur deleniti? Rem reiciendis excepturi quo qui omnis earum. .The Pet Hotel story begins more than 20 years ago, when we were purebred dog breeders. The need for pet boarding services was almost non-existent. At that time, we do not know of any other boarding house or hotel for pets in Romania.</p>
                 &nbsp;
                 <p>The Pet Hotel story begins more than 20 years ago, when we were purebred dog breeders. The need for pet boarding services was almost non-existent. At that time, we do not know of any other boarding house or hotel for pets in Romania.</p>
                 &nbsp;
                 <p>Inspired by the idea of ​​opening a boarding house for animals to serve the city of Cluj-Napoca, we made changes to the house where we lived in order to be able to receive dogs as a boarding house. A few years later, encouraged by the demand for accommodation for dogs and modifying other rooms, we managed to put into operation the first boarding house for dogs in Cluj-Napoca.</p>
             </div>
-            <img className="dogs-images" src={require("./../../assets/dog_3.webp")} alt="first"/>
       </div>
 
         <div className="pages-dogs-second">
-            <img className="dogs-images" src={require("./../../assets/animal_14.webp")} alt="second"/>
 
             <div className="pages-dogs-second-content">
                 <p>Later, at the request of our clients, we diversified the range of services, which we also extended to guinea pigs, rabbits, African hedgehogs, degu squirrels, Canadian squirrels, hamsters, chinchillas/chinchillas, domestic ferrets, gerbils, parrots, parakeets , canaries or turtles.</p>
@@ -33,9 +33,13 @@ function Dogs() {
                 &nbsp;
                 <p>Inspired by the idea of ​​opening a boarding house for animals to serve the city of Cluj-Napoca, we made changes to the house where we lived in order to be able to receive dogs as a boarding house. A few years later, encouraged by the demand for accommodation for dogs and modifying other rooms, we managed to put into operation the first boarding house for dogs in Cluj-Napoca.</p>
             </div>
+            <img className="dogs-images" src={require("./../../assets/animal_14.webp")} alt="second"/>
+
         </div>
 
         <div className="pages-dogs-third">
+        <img className="dogs-images" src={require("./../../assets/dog_5.webp")} alt="third"/>
+
         <div className="pages-dogs-third-content">
                 <p>We were motivated primarily by the love for animals. Pets and their owners were the ones who helped us grow. I succeeded thanks to understanding the peculiarities of the breeds of dogs, dogs or other pets, their behavioral habits and their desire for affection.</p>
                 &nbsp;
@@ -46,7 +50,6 @@ function Dogs() {
                 <p>Inspired by the idea of ​​opening a boarding house for animals to serve the city of Cluj-Napoca, we made changes to the house where we lived in order to be able to receive dogs as a boarding house. A few years later, encouraged by the demand for accommodation for dogs and modifying other rooms, we managed to put into operation the first boarding house for dogs in Cluj-Napoca.</p>
           
             </div>
-            <img className="dogs-images" src={require("./../../assets/dog_5.webp")} alt="third"/>
         </div>
 
         <div className="pages-dogs-trainers-container">
