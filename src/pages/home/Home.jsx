@@ -7,22 +7,16 @@ function Home() {
   return (
     <div className='home-page-container'>
     <div className='home-page-content'>
-      <p>Home</p>
-      <p>Home</p>
-      <p>Home</p>
-      <p>Home</p>
-      <p>Home</p>
-      <p>Home</p>
-      <p>Home</p>
-      <p>Home</p>
-      <p>Home</p>
-      <p>Home</p>
-      <p>Home</p>
-      <p>Home</p>
-      <p>Home</p>
-      <p>Home</p>
-      <p>Home</p>
     </div>
+    <div className="home-page-services">
+
+    </div>
+    
+
+
+
+
+
     <Navbar/>
     </div>
   )

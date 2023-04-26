@@ -57,10 +57,6 @@ function About() {
                     <h1>Cats</h1>
                     <a href="http://localhost:3000/cats">More</a>
                 </div>
-                <div className="pages-about-links-three">
-                    <h1>Other</h1>
-                    <a href="http://localhost:3000/other">More</a>
-                </div>
         </div>
         <MyButton/>
         <Navbar/>
