@@ -6,23 +6,18 @@ import './Home.css';
 function Home() {
   return (
     <div className='home-page-container'>
+      <div className="home-page-content-container">
+        <div className='home-page-content-first'>
+          <h1>PET HOTEL</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, aperiam? Sequi, dignissimos totam officiis veniam vel nulla quaerat, perferendis dolorem molestias, minima pariatur soluta? Veritatis consectetur sed voluptatibus blanditiis nam?<br/>
+            <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus at voluptate doloremque quis, inventore sit vero consequatur aut magni distinctio sequi amet soluta obcaecati eligendi nesciunt assumenda sapiente ex commodi!</p>
+        </div>
+        <div className="home-page-services">
 
-    <div className='home-page-content'>
-      <h1>PET HOTEL</h1>
-      <p>Suntem primul hotel sau pensiune pentru animale de companie din Cluj. In acelasi timp, suntem una dintre cele mai vechi pensiuni pentru animale din Romania. Experienta noastra de mai bine de 20 ani in ingrijirea animalelor de casa, o punem în serviciul tau.<br/>
-      Pachetul de servicii Pet Hotel are in centru bunastarea celui mai bun prieten al tau: caine, pisica sau orice alt animalut de companie.</p>
-    </div>
-
-
-
-
-    <div className="home-page-services"></div>
-    
+        </div>
 
 
-
-
-
+      </div>
     <Navbar/>
     </div>
   )

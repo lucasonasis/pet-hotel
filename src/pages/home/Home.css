@@ -1,21 +1,53 @@
-.home-page-container {
+body {
+    font-family: var(--font-family);
+  }
+  
+  .home-page-content-container {
     color: var(--color-text);
     background-color: var(--color-bg);
-    font-family: var(--font-family);
-    margin-top: 150px;
-    background-image: url('/src/assets/rabbit3.webp');
-}
+    margin-top: 160px;
+    display: flex;
+    flex-direction: column;
+    min-height: 570px;
+    width: 100%;
+  }
+  
+  .home-page-content-first {
+    background-image: url('/src/assets/img-first.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+  }
 
-.home-page-container h1 {
+
+  .home-page-content-first p {
+    padding: 5%;
+  }
+
+  
+  .home-page-container h1 {
     padding: 30px;
     text-align: center;
     font-size: 60px;
-    font-weight: bold;
-    font-family: var(--font-family);
-}
-
-.home-page-content, .home-page-services {
-    box-sizing: border-box;
-    display: flex;
-    flex-direction: column;
-}
+  }
+  
+  .home-page-content-first::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .home-page-content-first h1,
+  .home-page-content-first p {
+    position: relative;
+    z-index: 2;
+  }
+  
