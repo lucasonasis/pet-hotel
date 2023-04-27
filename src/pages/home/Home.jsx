@@ -18,7 +18,7 @@ function Home() {
         </div>
         <div className="home-page-services">
             <h1>
-                PET HOTEL SERVICES
+                SERVICES
             </h1>
             <p>
             We invite you to enter the sections below to find out what our hotel's services are for dogs, cats and other pets. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eos, unde vitae reiciendis dolorum et, maiores qui sequi architecto incidunt cumque neque excepturi rem ratione ipsum corrupti blanditiis dolore quidem?
@@ -34,6 +34,16 @@ function Home() {
                     <a href="http://localhost:3000/cats">More</a>
                 </div>
         </div>
+        <div className="home-page-video">
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/je1pgqhvYMU?autoplay=1&mute=1">
+        </iframe>
+        </div>
+
+
+
+
+
+
       </div>
     <MyButton/>
     <Navbar/>

@@ -132,3 +132,31 @@ body {
 .home-page-links a:hover {
     background-color: transparent;
 }
+
+.home-page-video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 700px;
+    margin-top: 3%;
+  }
+  
+  .home-page-video iframe {
+    width: 80%;
+    height: 80%;
+    border: none;
+}
+  
+  
+@media (max-width: 768px) {
+    .home-page-video {
+      height: 420px;
+      margin-top: 6%;
+    }
+    
+    .home-page-video iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
