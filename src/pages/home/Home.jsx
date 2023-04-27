@@ -1,7 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import Navbar from '../../components/navbar/Navbar';
 import './Home.css';
+import MyButton from '../../components/button/MyButton';
+import Navbar from '../../components/navbar/Navbar';
+import Blog from '../../components/blog/Blog';
+import Gallery from '../../components/gallery/Gallery';
+import Footer from '../../components/footer/Footer';
 
 function Home() {
   return (
@@ -13,13 +17,31 @@ function Home() {
             <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus at voluptate doloremque quis, inventore sit vero consequatur aut magni distinctio sequi amet soluta obcaecati eligendi nesciunt assumenda sapiente ex commodi!</p>
         </div>
         <div className="home-page-services">
-
+            <h1>
+                PET HOTEL SERVICES
+            </h1>
+            <p>
+            We invite you to enter the sections below to find out what our hotel's services are for dogs, cats and other pets. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus eos, unde vitae reiciendis dolorum et, maiores qui sequi architecto incidunt cumque neque excepturi rem ratione ipsum corrupti blanditiis dolore quidem?
+            </p>
         </div>
-
-
+        <div className="home-page-links">
+                <div className="home-page-links-one">
+                    <h1>Dogs</h1>
+                    <a href="http://localhost:3000/dogs">More</a>
+                </div>
+                <div className="home-page-links-two">
+                    <h1>Cats</h1>
+                    <a href="http://localhost:3000/cats">More</a>
+                </div>
+        </div>
       </div>
+    <MyButton/>
     <Navbar/>
-    </div>
+    <Blog/>
+    <Gallery/>
+    <Footer/>
+
+   </div>
   )
 }
 

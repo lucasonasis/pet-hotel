@@ -117,11 +117,10 @@
 @media screen and (max-width: 800px) {
     .pages-about-links {
         flex-direction: column;
-        height: 1500px;
     }
 
     .pages-about-links-one, .pages-about-links-two, .pages-about-links-three {
-        height: 500px;
+        min-height: 500px;
     }
 }
 
@@ -135,7 +134,7 @@
 .pages-about-links a {
     text-align: center;
     width: 150px;
-    height: 50px;
+    min-height: 50px;
     border-radius: 10em;
     font-size: 20px;
     background-color: #02de0a;
