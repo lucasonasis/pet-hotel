@@ -38,12 +38,15 @@ function Home() {
         <iframe width="420" height="315" src="https://www.youtube.com/embed/je1pgqhvYMU?autoplay=1&mute=1">
         </iframe>
         </div>
-
-
-
-
-
-
+        <div className="home-page-content-second">
+        <img className="home-page-image" src={require("./../../assets/img-second.jpeg")} alt="third"/>
+        <div className="home-page-content-second-text">
+          <h1>Where to find us?</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa reprehenderit blanditiis aspernatur dicta, architecto laboriosam iusto alias excepturi illo nobis voluptate numquam error fuga voluptates mollitia laudantium suscipit possimus animi!</p>
+          <br/>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat aut laborum sequi velit maiores eum assumenda, minima quis officiis repudiandae ipsam tempore quam natus laudantium est earum! Incidunt, sapiente at.</p>
+        </div>
+        </div>
       </div>
     <MyButton/>
     <Navbar/>

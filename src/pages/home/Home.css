@@ -160,3 +160,34 @@ body {
       height: 100%;
     }
   }
+
+.home-page-content-second {
+    display: flex;
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    width: 100%;
+  }
+
+
+.home-page-content-second img {
+    width: 50%;
+}
+
+.home-page-content-second-text {
+    text-align: center;
+    justify-content: center;
+    padding: 3%;
+    width: 50%;
+
+}
+
+  
+@media screen and (max-width: 1250px) {
+    .home-page-content-second {
+        flex-direction: column-reverse;
+    }
+    .home-page-content-second img, .home-page-content-second-text {
+        width: 100%;
+    }
+}
