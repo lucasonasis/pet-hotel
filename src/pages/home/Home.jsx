@@ -6,6 +6,8 @@ import Navbar from '../../components/navbar/Navbar';
 import Blog from '../../components/blog/Blog';
 import Gallery from '../../components/gallery/Gallery';
 import Footer from '../../components/footer/Footer';
+import Map from '../../components/map/Map';
+import { Loader } from '@googlemaps/js-api-loader';
 
 function Home() {
   return (
@@ -47,6 +49,8 @@ function Home() {
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat aut laborum sequi velit maiores eum assumenda, minima quis officiis repudiandae ipsam tempore quam natus laudantium est earum! Incidunt, sapiente at.</p>
         </div>
         </div>
+        <br/>
+        <Map/>
       </div>
     <MyButton/>
     <Navbar/>
