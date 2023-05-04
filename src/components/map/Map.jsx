@@ -32,7 +32,11 @@ function Map() {
     }
   }, [google, mapRef]);
 
-  return <div className='pet-hotel-map' ref={mapRef}/>;
+  return (
+    <div className="pet-hotel-map-container">
+      <div className='pet-hotel-map' ref={mapRef}/>
+  </div>
+  );
 }
 
 export default Map;

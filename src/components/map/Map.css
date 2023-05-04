@@ -1,6 +1,11 @@
-.pet-hotel-map {
+.pet-hotel-map-container {
+    display: flex;
+    justify-content: center;
+    margin: 0% 8%;
+  }
+  
+  .pet-hotel-map {
     height: 400px;
     width: 100%;
-    margin-bottom: 5%;
-    border: 2px solid red;
-}
+  }
+  
