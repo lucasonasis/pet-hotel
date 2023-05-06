@@ -18,6 +18,13 @@ function Home() {
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, aperiam? Sequi, dignissimos totam officiis veniam vel nulla quaerat, perferendis dolorem molestias, minima pariatur soluta? Veritatis consectetur sed voluptatibus blanditiis nam?<br/>
             <br/>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus at voluptate doloremque quis, inventore sit vero consequatur aut magni distinctio sequi amet soluta obcaecati eligendi nesciunt assumenda sapiente ex commodi!</p>
         </div>
+        <div className="home-page-video">
+        <iframe width="420" height="315" src="https://www.youtube.com/embed/je1pgqhvYMU?autoplay=1&mute=1">
+        </iframe>
+        </div>
+
+
+
         <div className="home-page-services">
             <h1>
                 SERVICES
@@ -35,10 +42,6 @@ function Home() {
                     <h1>Cats</h1>
                     <a href="http://localhost:3000/cats">More</a>
                 </div>
-        </div>
-        <div className="home-page-video">
-        <iframe width="420" height="315" src="https://www.youtube.com/embed/je1pgqhvYMU?autoplay=1&mute=1">
-        </iframe>
         </div>
         <div className="home-page-content-second">
         <img className="home-page-image" src={require("./../../assets/img-second.jpeg")} alt="third"/>
