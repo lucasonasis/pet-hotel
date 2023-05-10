@@ -182,7 +182,6 @@ body {
 
 }
 
-  
 @media screen and (max-width: 1250px) {
     .home-page-content-second {
         flex-direction: column-reverse;
@@ -192,3 +191,6 @@ body {
     }
 }
 
+.home-page-content-second-text a {
+    color: #02de0a;
+}

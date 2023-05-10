@@ -49,11 +49,9 @@ function Home() {
           <h1>Where to find us?</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa reprehenderit blanditiis aspernatur dicta, architecto laboriosam iusto alias excepturi illo nobis voluptate numquam error fuga voluptates mollitia laudantium suscipit possimus animi!</p>
           <br/>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat aut laborum sequi velit maiores eum assumenda, minima quis officiis repudiandae ipsam tempore quam natus laudantium est earum! Incidunt, sapiente at.</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat aut laborum sequi velit maiores eum assumenda, minima quis officiis repudiandae ipsam tempore quam natus laudantium est earum! Incidunt, sapiente at<a href='http://localhost:3000/contact'>random address.</a></p>
         </div>
         </div>
-        <br/>
-        <Map/>
       </div>
     <MyButton/>
     <Navbar/>
