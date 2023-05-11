@@ -1,0 +1,48 @@
+.contact-page-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    justify-content: center;
+    margin-left: 2%;
+    box-sizing: border-box;
+    justify-content: center;
+    min-height: 600px;
+
+}
+
+.contact-page-content {
+    color: white;
+    flex: 1;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    border: 2px solid red;
+}
+
+.contact-page-map {
+    width: 60%;
+    background-size: cover;
+    border: 2px solid red;
+}
+
+.contact-page-content-social {
+    display: flex;
+    border-top: 0.2px solid white;
+}
+
+.contact-page-content-social p {
+    margin-left: 2%;
+    margin-top: 2%;
+    font-size: 30px;
+}
+
+.contact-page-content-one, .contact-page-content-two, .contact-page-content-three {
+    display: flex;
+    margin-top: 2%;
+}
+
+.contact-page-content-one-icon, .contact-page-content-two-icon, .contact-page-content-three-icon {
+    margin-right: 2%;
+    font-size: 25px;
+}
