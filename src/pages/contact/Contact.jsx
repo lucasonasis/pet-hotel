@@ -6,7 +6,7 @@ import { FaFacebook, FaYoutube } from 'react-icons/fa';
 import { FiPhoneCall } from 'react-icons/fi';
 import { BsFillHouseHeartFill } from 'react-icons/bs';
 import { TfiEmail } from 'react-icons/tfi';
-
+import Footer from '../../components/footer/Footer';
 
 function Contact() {
   return (
@@ -18,10 +18,10 @@ function Contact() {
           <div className="contact-page-content-container">
             <div className="contact-page-content-one">
               <div className="contact-page-content-one-icon">
-                <FiPhoneCall/>
+              <a href="tel:+40741268379"><FiPhoneCall/></a>
               </div>
               <div className="contact-page-content-one-tel">
-                <p>Tel: 0721 831 958</p>
+                <p>Tel:<a href="tel:+40741268379">+40741268379</a> </p>
               </div>
             </div>  
           <div className="contact-page-content-two">	
@@ -29,11 +29,11 @@ function Contact() {
               <BsFillHouseHeartFill/>
             </div>
             <div className="contact-page-content-two-address">
-              Adresa:<br/>
-              Sat Suceagu, Strada Principala 261H, jud. Cluj<br/>
-              Deschide cu Google Maps<br/>
-              Deschide cu Waze<br/>
-              GPS: 46.782932, 23.466341<br/>
+              <p>Adresa:</p>
+              <p>Sat Suceagu, Strada Principala 261H, jud. Cluj</p>
+              <p><a href="https://www.google.com/maps/@46.14434,21.474524,11.79z" target='_blank'>Deschide cu Google Maps</a></p>
+              <p><a href="https://www.waze.com/en-GB/live-map/directions" target='_blank'>Deschide cu Waze</a></p>         
+              <p>GPS: 46.782932, 23.466341</p>
             </div>
           </div>
           </div>
@@ -42,7 +42,7 @@ function Contact() {
               <TfiEmail/>
             </div>
             <div className="contact-page-content-three-email">
-              <p>Email: contact@pethotel.ro</p>
+              <p>Email:<a href="mailto:contact@pethotel.ro">contact@pethotel.ro</a></p>
             </div>
           </div>
         <div className="contact-page-content-social">
@@ -54,6 +54,7 @@ function Contact() {
           <Map/>
         </div>
       </div>
+      <Footer/>
       <Navbar/>
     </div>
 

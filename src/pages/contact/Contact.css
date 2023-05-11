@@ -17,13 +17,11 @@
     display: flex;
     flex-direction: column;
     row-gap: 1em;
-    border: 2px solid red;
 }
 
 .contact-page-map {
     width: 60%;
     background-size: cover;
-    border: 2px solid red;
 }
 
 .contact-page-content-social {
@@ -34,7 +32,7 @@
 .contact-page-content-social p {
     margin-left: 2%;
     margin-top: 2%;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .contact-page-content-one, .contact-page-content-two, .contact-page-content-three {
@@ -46,3 +44,47 @@
     margin-right: 2%;
     font-size: 25px;
 }
+
+.contact-page-content-four {
+    color: white;
+}
+
+.pet-hotel-map {
+    width: 100%;
+    height: 600px;
+    margin: 10px;
+}
+
+.pages-about-footer {
+    color: white;
+}
+
+.contact-page-content-two-address a, .contact-page-content-one-icon a {
+    margin: 0;
+}
+
+.contact-page-content-one-tel a, .contact-page-content-two-address a, .contact-page-content-three-email a {
+    color: #02de0a;
+}
+
+.contact-page-content-two-address {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.contact-page-content-one-icon a {
+    display: inline-block;
+    transition: transform 1s;
+  }
+  
+  .contact-page-content-one-icon a:hover {
+    transform: rotate(20deg);
+    color: #02de0a;
+    font-size: 35px;
+  }
+  
+  .contact-page-content-one-icon a:hover:not(:hover) {
+    transform: rotate(20deg);
+  }
+  
