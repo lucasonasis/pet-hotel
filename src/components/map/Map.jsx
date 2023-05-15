@@ -8,7 +8,7 @@ function Map() {
 
   useEffect(() => {
     const loader = new Loader({
-      apiKey: 'AIzaSyCp5zNHeRDYY3lmxPwZ2eRgDkHUg-TFq8M',
+      apiKey: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
       version: 'weekly',
     });
 
