@@ -137,3 +137,20 @@
     border: 2px solid white;
     padding-bottom: 1%;
 }
+
+.pages-cats-trainer-content-one,
+.pages-cats-trainer-content-two,
+.pages-cats-trainer-content-three {
+  display: inline-block;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pages-cats-trainer-content-one:hover,
+.pages-cats-trainer-content-two:hover,
+.pages-cats-trainer-content-three:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px #02de0a;
+  border: 2px solid #02de0a;
+}
+
+  
