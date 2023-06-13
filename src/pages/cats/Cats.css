@@ -154,3 +154,23 @@
 }
 
   
+@media (max-width: 1050px) {
+    .pages-cats-trainer-content-one,
+    .pages-cats-trainer-content-two,
+    .pages-cats-trainer-content-three {
+      display: inline-block;
+      transition: margin 0.3s;
+    }
+  
+    .pages-cats-trainer-content-one:hover,
+    .pages-cats-trainer-content-two:hover,
+    .pages-cats-trainer-content-three:hover {
+      margin-top: 30px;
+    }
+    
+    .pages-cats-trainer-content-one:hover,
+    .pages-cats-trainer-content-two:hover {
+        margin-bottom: 30px;
+    }
+  }
+  
