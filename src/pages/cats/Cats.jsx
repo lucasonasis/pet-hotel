@@ -54,9 +54,11 @@ function Cats() {
             <h1>MEET OUR TRAINERS AND GROOMERS</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima sed quaerat molestias optio! Expedita dignissimos dolores sed libero. Nisi, iste omnis. Est hic omnis amet voluptate? Iure perspiciatis sequi deleniti.</p>
           </div>
-
+      
           <div className="pages-cats-trainers-content">
+   
           <div className="pages-cats-trainer-content-one">
+          <a href="https://facebook.com" target='_blank' className="trainer-link">
             <img src={require("./../../assets/vet_2.jpeg")}/>
             <h2>Lucie Cross</h2>
             <p className="pages-cats-trainer-qualifications">Certified Feline Training and Behavior Specialist</p>
@@ -66,9 +68,11 @@ function Cats() {
               <li>Behavior modification</li>
               <li>Cat grooming</li>
             </ul>
-           </div>
+            </a>
+          </div>
 
           <div className="pages-cats-trainer-content-two">
+          <a href="https://facebook.com" target='_blank' className="trainer-link">
             <img src={require("./../../assets/vet_4.jpeg")}/>
             <h2>Darius Grant</h2>
             <p className="pages-cats-trainer-qualifications">Certified Pet Trainer</p>
@@ -78,9 +82,11 @@ function Cats() {
               <li>Behavior modification</li>
               <li>Dog grooming</li>
             </ul>
+            </a>
            </div>
 
            <div className="pages-cats-trainer-content-three">
+           <a href="https://facebook.com" target='_blank' className="trainer-link">
             <img src={require("./../../assets/vet_3.jpeg")}/>
             <h2>Thea Hamilton</h2>
             <p className="pages-cats-trainer-qualifications">Certified Animal Behaviorist</p>
@@ -90,13 +96,11 @@ function Cats() {
               <li>Behavior modification</li>
               <li>Dog grooming</li>
             </ul>
+            </a>
            </div>
+           
           </div>
         </div>
-
-
-
-
     <MyButton/>
     <Navbar/>
     <Blog/>

@@ -143,3 +143,48 @@
     border: 2px solid white;
     padding-bottom: 1%;
 }
+
+.pages-dogs-trainer-content-one,
+.pages-dogs-trainer-content-two,
+.pages-dogs-trainer-content-three {
+  display: inline-block;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pages-dogs-trainer-content-one:hover,
+.pages-dogs-trainer-content-two:hover,
+.pages-dogs-trainer-content-three:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 30px #02de0a;
+  border: 2px solid #02de0a;
+}
+
+  
+@media (max-width: 1050px) {
+    .pages-dogs-trainer-content-one,
+    .pages-dogs-trainer-content-two,
+    .pages-dogs-trainer-content-three {
+      display: inline-block;
+      transition: margin 0.3s;
+    }
+  
+    .pages-dogs-trainer-content-one:hover,
+    .pages-dogs-trainer-content-two:hover,
+    .pages-dogs-trainer-content-three:hover {
+      margin-top: 30px;
+    }
+    
+    .pages-dogs-trainer-content-one:hover,
+    .pages-dogs-trainer-content-two:hover {
+        margin-bottom: 30px;
+    }
+  }
+  
+
+
+.trainer-link {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+  }
+  

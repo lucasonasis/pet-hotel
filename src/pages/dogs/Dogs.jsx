@@ -59,42 +59,50 @@ function Dogs() {
           </div>
 
           <div className="pages-dogs-trainers-content">
-          <div className="pages-dogs-trainer-content-one">
-            <img src={require("./../../assets/vet_2.jpeg")}/>
-            <h2>Lucie Cross</h2>
-            <p className="pages-dogs-trainer-qualifications">Certified Feline Training and Behavior Specialist</p>
-            <p>Bachelor's degree in Animal Behavior</p>
-            <ul className="pages-dogs-trainer-services">
-              <li>Private training sessions</li>
-              <li>Behavior modification</li>
-              <li>Cat grooming</li>
-            </ul>
-           </div>
+   
+   <div className="pages-dogs-trainer-content-one">
+   <a href="https://facebook.com" target='_blank' className="trainer-link">
+     <img src={require("./../../assets/vet_2.jpeg")}/>
+     <h2>Lucie Cross</h2>
+     <p className="pages-dogs-trainer-qualifications">Certified Feline Training and Behavior Specialist</p>
+     <p>Bachelor's degree in Animal Behavior</p>
+     <ul className="pages-dogs-trainer-services">
+       <li>Private training sessions</li>
+       <li>Behavior modification</li>
+       <li>Cat grooming</li>
+     </ul>
+     </a>
+   </div>
 
-          <div className="pages-dogs-trainer-content-two">
-            <img src={require("./../../assets/vet_4.jpeg")}/>
-            <h2>Darius Grant</h2>
-            <p className="pages-dogs-trainer-qualifications">Certified Pet Trainer</p>
-            <p>Associate's degree in Veterinary Technology</p>
-            <ul className="pages-dogs-trainer-services">
-            <li>Private training sessions</li>
-              <li>Behavior modification</li>
-              <li>Dog grooming</li>
-            </ul>
-           </div>
+   <div className="pages-dogs-trainer-content-two">
+   <a href="https://facebook.com" target='_blank' className="trainer-link">
+     <img src={require("./../../assets/vet_4.jpeg")}/>
+     <h2>Darius Grant</h2>
+     <p className="pages-dogs-trainer-qualifications">Certified Pet Trainer</p>
+     <p>Associate's degree in Veterinary Technology</p>
+     <ul className="pages-dogs-trainer-services">
+     <li>Private training sessions</li>
+       <li>Behavior modification</li>
+       <li>Dog grooming</li>
+     </ul>
+     </a>
+    </div>
 
-           <div className="pages-dogs-trainer-content-three">
-            <img src={require("./../../assets/vet_3.jpeg")}/>
-            <h2>Thea Hamilton</h2>
-            <p className="pages-dogs-trainer-qualifications">Certified Animal Behaviorist</p>
-            <p>Master's degree in Animal Behavior and Grooming</p>
-            <ul className="pages-dogs-trainer-services">
-            <li>Private training sessions</li>
-              <li>Behavior modification</li>
-              <li>Dog grooming</li>
-            </ul>
-           </div>
-          </div>
+    <div className="pages-dogs-trainer-content-three">
+    <a href="https://facebook.com" target='_blank' className="trainer-link">
+     <img src={require("./../../assets/vet_3.jpeg")}/>
+     <h2>Thea Hamilton</h2>
+     <p className="pages-dogs-trainer-qualifications">Certified Animal Behaviorist</p>
+     <p>Master's degree in Animal Behavior and Grooming</p>
+     <ul className="pages-dogs-trainer-services">
+     <li>Private training sessions</li>
+       <li>Behavior modification</li>
+       <li>Dog grooming</li>
+     </ul>
+     </a>
+    </div>
+    
+   </div>
         </div>
 
 
