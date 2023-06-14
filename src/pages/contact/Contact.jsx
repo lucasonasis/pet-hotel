@@ -46,8 +46,8 @@ function Contact() {
             </div>
           </div>
         <div className="contact-page-content-social">
-          <p><a href="http://facebook.com" target='_blank'><FaFacebook/></a></p>
-          <p><a href="http://facebook.com" target='_blank'><FaYoutube/></a></p>
+          <p><a href="http://facebook.com" target='_blank'><FaFacebook className='icon-facebook'/></a></p>
+          <p><a href="http://facebook.com" target='_blank'><FaYoutube className='icon-youtube'/></a></p>
         </div>
         </div>
         <div className="contact-page-map">

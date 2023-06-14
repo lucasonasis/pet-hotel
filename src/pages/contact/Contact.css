@@ -88,3 +88,11 @@
     transform: rotate(20deg);
   }
   
+.icon-facebook, .icon-youtube {
+  transition: transform 0.3s;
+}
+
+.icon-facebook:hover, .icon-youtube:hover {
+  transform: scale(1.1);
+  color: #02de0a;
+}
